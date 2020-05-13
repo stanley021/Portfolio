@@ -17,11 +17,25 @@ app.use(express.static(htmlpath))
 
 app.get('', (req, res) => {
     res.render('index',{
-        title: "Weather",
-        name: "stanley chen"
+        title: "Stanley Chen",
+        name: "Stanley chen"
 
     })
 })
+app.get('/weatherapp', (req, res) => {
+    res.render('Weather',{
+        title: "Weather App",
+        name: "Stanley chen"
+
+    })
+})
+app.get("/contactInfo", (req,res) =>{
+    res.render('ContactInfo',{
+        title: "Contact Info",
+        name:"Stanley chen"
+    })
+})
+
 app.get('/about', (req, res) => {
     res.render('About',{
         title: "About",
@@ -29,10 +43,11 @@ app.get('/about', (req, res) => {
 
     })
 })
-app.get('/help', (req, res) => {
-    res.render('Help',{
-        title: "Help",
-        message: "Life can suck but, you should neever give up even if you want to.",
+app.get('/socialmedia', (req, res) => {
+    res.render('social',{
+        title: "Social Media",
+        message: "Github (click me!)",
+        message2: "Linkedin (click me!)",
         name: "Stanley Chen"
 
     })

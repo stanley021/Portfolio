@@ -1,24 +1,142 @@
 body{
      color: #333333;
      font-family: arial;
-     max-width: 650px;
-     margin: 0 auto;
-     padding: 0 16px;
-
      display: flex;
      flex-direction: column;
-     min-height: 100vh
+     min-height: 100vh;
+     background: #ffffff;
+}
+input{
+    width: 700px;
+    height: 15px;
+}
+.socials_page{
+  display: inline-block;
+  padding-left: 70px;
 
 }
+.title{
+    text-align: left;
+    padding: 0px 0px 5px 0px;
+    margin: 0 -25px;
+    float: left;
+}
+.right-captcha{
+  padding-left: 80px;
+}
+.Contact-info{
+    text-align: center;
+    font-size: 20px;
+}
+.main-content-index h1{
+    font-size: 30px;
+    font:bold;
+}
+.slidershow{
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+  }
+  .middle{
+    top: 100%;
+    right: 0%;
+    transform: translate(77%,0%);
+  }
+  .navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid orange;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .bar:hover{
+    background: red;
+  }
+  
+  input[name="r"]{
+      position: absolute;
+      visibility: hidden;
+  }
+  
+  .slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 0.6s;
+  }
+  .slide img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  #r1:checked ~ .s1{
+    margin-left: 0;
+  }
+  #r2:checked ~ .s1{
+    margin-left: -20%;
+  }
+  #r3:checked ~ .s1{
+    margin-left: -40%;
+  }
+
+  #r4:checked ~ .s2{
+    margin-left: 0;
+  }
+  #r5:checked ~ .s2{
+    margin-left: -20%;
+  }
+  #r6:checked ~ .s2{
+    margin-left: -40%;
+  }
+
 .main-content{
     flex-grow: 1;
+    text-align: center;
+    font:bold;
+    font-size: 25px;
+    padding: 0 50px 5px 50px;
+}
+.nav{
+    background-color: #ffffff;
+    color: #000000;
+    list-style: none;
+    text-align: right;
+}
+.nav > li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 35px 25px 0px 20px;
+}
+.nav > li > a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial;
+    font: bold;
     
+
+    border: 2px solid white;
+    padding: 15px
 }
 
-
-
+.banner > .banner-image{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
 header{
-    margin-top: 16px;
+    margin-top: -20px;
     margin-bottom: 48px;
 }
 
@@ -34,14 +152,8 @@ footer {
     padding: 16px 0;
 }
 
-header a{
-    color: #888888;
-    margin-right: 16px;
-    text-decoration: none;
-}
-
 .portrait {
-    width: 100px;
+    width: 400px;
 
 }
 
@@ -57,6 +169,9 @@ button{
     background: #888888;
     color: white;
     padding: 8px;
+}
 
-
+.nav>li>a:hover{
+  border: 2px solid black;
+  
 }

@@ -4,16 +4,26 @@
 <head>
         <title>About</title>
 
-<link rel="icon" href='/weather.png'>
+<link rel="icon" href='img/weather.png'>
     <link rel = "stylesheet" href = "/css/style.css">
     
 </head>
 
 <body>
+    {{>header}}
 <div class ="main-content">
-        {{>header}}
-        <p>This site was created by Stanley Chen. It uses data from mapbox.com and darkskies api.</p>
-            <img class='portrait' src = "/me.jpg">
+        <h1>Introduction</h1>
+        <p>Hello, my name is Stanley Chen and I grew up in Toronto. I am currently studying honours computer science at Western University with 
+            thoughts of doing a minor in game development. This website is my portfolio that I have created using html,css and nodejs with express, to show the progress 
+            of my journey. As a kid I have always enjoyed technology ever since I built my own computer (GTX 980ti, i7-4790k, 16gb ddr3, 1tb samsung ssd). 
+            I've always wondered how far technology can go and i've always wished to follow the progress of technology and understand it's capabilites.</p>
+            
+            <p> I have attended many hackathons(Hack the Barriers, Western Hacks) due to my 
+            own passion to further develop my computer science abilities and I have met many others that have the same passion and it hit close to home. 
+
+        If you are curious about the weather application it uses data from mapbox.com and darkskies api to search the weather of the location you desire.</p>
+        
+        <img class='portrait' src = "img/me.jpg">
 
     </div>
 

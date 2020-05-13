@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>   
+     <title>Weather</title>
+    <link rel="icon" href='img/weather.png'>
+    <link rel = "stylesheet" href = "/css/style.css">
+    
+
+</head>
+
+
+
+<body>
+    {{>header}}
+    <div class ="main-content">
+        <p>This application can determine the live weather of the location given to it.</p> 
+        <p>Please do not abuse it as I only have a free account</p>
+        <form>
+            <input placeholder="Location">
+            <button>
+                Search
+            </button>
+        </form>
+        <p id = "mesage-1">        </p>
+        <p id = "message-2">        </p>
+    </div>
+
+
+
+{{>footer}}
+<script src = "/js/app.js">  </script>
+</body>
+</html>
