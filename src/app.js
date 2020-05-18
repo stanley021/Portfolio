@@ -24,7 +24,7 @@ app.get('', (req, res) => {
 })
 app.get('/weatherapp', (req, res) => {
     res.render('Weather',{
-        title: "Weather App",
+        title: "Weather Application",
         name: "Stanley chen"
 
     })
@@ -38,7 +38,7 @@ app.get("/contactInfo", (req,res) =>{
 
 app.get('/about', (req, res) => {
     res.render('About',{
-        title: "About",
+        title: "About Me",
         name: "stanley chen"
 
     })

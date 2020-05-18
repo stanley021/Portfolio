@@ -11,9 +11,13 @@
 
 <body>
     {{>header}}
+    <h1 class = "main-content-title">Personal Acheivements</h1>
     <div class ="main-content-index">
         <h1>Creating games with python and processing</h1>
-        <p>First game (snake) </p>
+        <h2>First game (snake) </h2>
+        <h3>In grade 11, my class was learning python and this was the first game created by me with python. </h3>
+
+
         <div class = "slidershow middle">
             <div class="slides">
                 <input type = "radio" name = "r" id = "r1" checked>
@@ -28,8 +32,11 @@
                 <label for ="r2" class = "bar"></label>
                 <label for ="r3" class = "bar"></label>
             </div>
-    </div>
-        <p>Most recent game created (Chess)</p>
+        </div>
+        <p class="preview-photo">Click through the photos to see a preview of the game!</p>
+        <h2>Most recent game created (Chess)</h2>
+        <h3>In grade 12, I continued with python and learned how to create a more coding intensive game using OOP(Object Oriented Programming).</h3>
+        
         <div class = "slidershow middle">
             <div class="slides">
                 <input type = "radio" name = "r" id = "r4" checked>
@@ -43,16 +50,34 @@
                 <label for ="r4" class = "bar"></label>
                 <label for ="r5" class = "bar"></label>
                 <label for ="r6" class = "bar"></label>
-            </div>
+            </div>  
     </div>
+    
+    
+    <p class="preview-photo">Click through the photos to see a preview of the game!</p>
+
+    <div class = "vex-para">
+        <h1 >Robotics Competition</h1>
+        <p class = "robotics-para">Attended the Vex Robotics Competition with the York Mills 
+           Collegiate Institute Robotics team at St. Catherine for the Ontario 
+           Provincial Championships (2019). I was one of the members of the drive team that 
+           had the purpose of determining the flaws and places that needed improvement during the matches.
+           We had two robots with the desire to become finalists but, due to our low budget our robot was unable to 
+           beat the ones that had well funding. Although we were not in the finals, a lot of teamwork and communication was involved making it a better experience.
+        </p><img class = "vex-pic" src = "img/vex1.jpg">
+
+    </div>
+
     {{!-- Tensorflow part for personal projects --}}
-    <div>
-        <h1>Personal Projects</h1>
-        <h4>Using AI to learn how to solve certain types of captchas with sample data with labeling and self learning with test cases.</h4>
-        <p>Project inspiration: I used to play an mmo called Maplestory and my friend recently started playing it and asked me if I could create a program to solve captchas and with throughout research I created this program.</p>
+    <div class = "captcha">
+        <h1 >Personal Projects(tensorflow)</h1>
+        <h4>Using Machine Learning AI to learn how to solve certain types of captchas. Using sample data with labeling and self learning.</h4>
+        <p>Project inspiration: I used to play an mmo called Maplestory and my friend recently started playing it and asked me if I could create a program to solve captchas and with thoughtful research I created this program.</p>
         <img src = 'img/captcha.jpg'><img src = 'img/full captcha.jpg' class= "right-captcha">
     </div>
     
+
+    </div>
     
 
 {{>footer}}
