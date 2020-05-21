@@ -1,88 +1,37 @@
 <!DOCTYPE html>
 
 <html>
-<head>   
-     <title>Stanley chen</title>
-    <link rel="icon" href='img/weather.png'>
-    <link rel = "stylesheet" href = "/css/style.css">
-    
-
+<head>
+<title>Stanley Chen</title>
+<link rel="icon" href='img/weather.png'>
+<link rel = "stylesheet" href = "/css/style.css">
 </head>
 
 <body>
-    {{>header}}
-    <h1 class = "main-content-title">Personal Acheivements</h1>
-    <div class ="main-content-index">
-        <h1>Creating games with python and processing</h1>
-        <h2>First game (snake) </h2>
-        <h3>In grade 11, my class was learning python and this was the first game created by me with python. </h3>
-
-
-        <div class = "slidershow middle">
-            <div class="slides">
-                <input type = "radio" name = "r" id = "r1" checked>
-                <input type = "radio" name = "r" id = "r2" >
-                <input type = "radio" name = "r" id = "r3">
-                <div class= "slide s1"><img src= "img/1.jpg" class = "slider-image"></div>
-                <div class= "slide"><img src= "img/2.jpg" class = "slider-image"></div>
-                <div class= "slide"><img src= "img/3.jpg" class = "slider-image"></div>
-            </div>
-            <div class = "navigation">
-                <label for ="r1" class = "bar"></label>
-                <label for ="r2" class = "bar"></label>
-                <label for ="r3" class = "bar"></label>
-            </div>
-        </div>
-        <p class="preview-photo">Click through the photos to see a preview of the game!</p>
-        <h2>Most recent game created (Chess)</h2>
-        <h3>In grade 12, I continued with python and learned how to create a more coding intensive game using OOP(Object Oriented Programming).</h3>
-        
-        <div class = "slidershow middle">
-            <div class="slides">
-                <input type = "radio" name = "r" id = "r4" checked>
-                <input type = "radio" name = "r" id = "r5" >
-                <input type = "radio" name = "r" id = "r6">
-                <div class= "slide s2"><img src= "img/4.jpg" class = "slider-image"></div>
-                <div class= "slide"><img src= "img/5.jpg" class = "slider-image"></div>
-                <div class= "slide"><img src= "img/6.jpg" class = "slider-image"></div>
-            </div>
-            <div class = "navigation">
-                <label for ="r4" class = "bar"></label>
-                <label for ="r5" class = "bar"></label>
-                <label for ="r6" class = "bar"></label>
-            </div>  
-    </div>
+<ul class = "nav">
+    <h1 class="title">{{title}}</h1>
+    <li><a href="/">Stanley Chen</a></li>
+    <li><a href = '/projects'> Projects </a></li>
+    <li><a href = "/About">About Me</a></li>
+    <li><a href = "/socialmedia"> Social Media </a></li>
+    <li><a href = '/contactInfo'> Contact </a></li>
+    <li><a href= "/weatherapp">Weather application</a></li>
     
+    </ul>
+    <div class = "banner">
+    <img class= "banner-grad" src = "img/together.jpg">
+   </div>
+
     
-    <p class="preview-photo">Click through the photos to see a preview of the game!</p>
-
-    <div class = "vex-para">
-        <h1 >Robotics Competition</h1>
-        <p class = "robotics-para">Attended the Vex Robotics Competition with the York Mills 
-           Collegiate Institute Robotics team at St. Catherine for the Ontario 
-           Provincial Championships (2019). I was one of the members of the drive team that 
-           had the purpose of determining the flaws and places that needed improvement during the matches.
-           We had two robots with the desire to become finalists but, due to our low budget our robot was unable to 
-           beat the ones that had well funding. Although we were not in the finals, a lot of teamwork and communication was involved making it a better experience.
-        </p><img class = "vex-pic" src = "img/vex1.jpg">
-
-    </div>
-
-    {{!-- Tensorflow part for personal projects --}}
-    <div class = "captcha">
-        <h1 >Personal Projects(tensorflow)</h1>
-        <h4>Using Machine Learning AI to learn how to solve certain types of captchas. Using sample data with labeling and self learning.</h4>
-        <p>Project inspiration: I used to play an mmo called Maplestory and my friend recently started playing it and asked me if I could create a program to solve captchas and with thoughtful research I created this program.</p>
-        <img src = 'img/captcha.jpg'><img src = 'img/full captcha.jpg' class= "right-captcha">
-    </div>
+    <div class="square"></div>
+    <h2 class = "index-quote">S t a n l e y &nbsp;&nbsp;&nbsp;&nbsp; C h e n</h2>
+    <h2 class="index-type"> P o r t f o l i o.</h2>
+    <h2 class ="index-real">Self-made men do not exist. You will reach your goal with the help of others.</h2>
     
-
-    </div>
+    <h2 class= "main-content-indexx">Home</h2>
+    <h2 class= "main-content-index-para">Welcome! This is the portfolio site of Stanely Chen. Feel free to reach out to talk about any of my projects or any ideas you may have!</h2>
     
-
 {{>footer}}
-<script src = "/js/app.js">  </script>
 </body>
-
 
 </html>

@@ -29,6 +29,13 @@ app.get('/weatherapp', (req, res) => {
 
     })
 })
+app.get('/projects', (req, res) => {
+    res.render('projects',{
+        title: "Projects",
+        name: "Stanley chen"
+
+    })
+})
 app.get("/contactInfo", (req,res) =>{
     res.render('ContactInfo',{
         title: "Contact Info",
@@ -46,8 +53,9 @@ app.get('/about', (req, res) => {
 app.get('/socialmedia', (req, res) => {
     res.render('social',{
         title: "Social Media",
-        message: "Github (click me!)",
-        message2: "Linkedin (click me!)",
+        message: "Github (Click me!)",
+        message1: "DMOJ (Click me!)",
+        message2: "Linkedin (Click me!)",
         name: "Stanley Chen"
 
     })
