@@ -38,7 +38,7 @@ input{
   left: 50%;
   transform: translate(-50%, 23%);
   height: 300px;
-  width: 950px;
+  width: 50%;
   background-color: #555;
   opacity: 0.8;
 }
