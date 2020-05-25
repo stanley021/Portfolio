@@ -28,6 +28,7 @@
   margin-left: 70px;
 }
 .banner-grad{
+    margin-top: 10px;
   width: 100%;
     display: block;
     object-fit: cover;
@@ -106,7 +107,7 @@
       }
   
       .main-content{
-        margin-top:6%;
+        margin-top:10%;
         flex-grow: 1;
         text-align: center;
         font:bold;
@@ -123,7 +124,7 @@
         margin-top: 3%;
     }
     .about-title{
-        margin-top: 13%;
+        margin-top: 5%;
       padding-left: 30px;
       text-align: left;
       font-size: 40px;
@@ -131,12 +132,12 @@
     .about-page{
         display: inline-block;
         text-align: left;
-        width: 60%;
+        width: 61%;
         position:left;
         font-size: 20px;
         font:bold;
         flex-grow: 1;
-        font-size: 25px;
+        font-size: 20px;
         padding: 0 50px 5px 50px;
       }
       
@@ -148,9 +149,10 @@
       
       }
       .toronto-banner{
-        margin-top:20px;
+        margin-top:5%;
         width:100%;
-        border: 4px solid black
+        border: 4px solid black;
+
       }
     
       
@@ -496,14 +498,32 @@
   }
 
   @media screen and (max-width: 1143px){
+      .about-title{
+        margin-top: 18%;
+        font-size: 80%;
+      }
     .about-page{
         width:100%;
+        font-size: 70%;
     }
     .about-portrait{
-        display:center;
-        float:center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:375px;
+        margin-bottom: 2%;
+    }
+}
 
-        
-
+@media screen and (max-width: 500px){
+    .portrait{
+        width:100%;
+    }
+    .Contact-info{
+        font-size: 100%;
+    }
+    .main-content{
+        margin-top: 30%;
+        font-size: 90%;
     }
 }
