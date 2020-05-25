@@ -124,7 +124,7 @@
         margin-top: 3%;
     }
     .about-title{
-        margin-top: 5%;
+        margin-top: 30px;
       padding-left: 30px;
       text-align: left;
       font-size: 40px;
@@ -499,7 +499,7 @@
 
   @media screen and (max-width: 1143px){
       .about-title{
-        margin-top: 18%;
+        margin-top: 10%;
         font-size: 80%;
       }
     .about-page{

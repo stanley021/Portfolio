@@ -72,13 +72,6 @@ app.get("/contactInfo", (req,res) =>{
     })
 })
 
-app.get('/about', (req, res) => {
-    res.render('About',{
-        title: "About Me",
-        name: "stanley chen"
-
-    })
-})
 app.get('/socialmedia', (req, res) => {
     res.render('social',{
         title: "Social Media",

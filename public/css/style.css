@@ -414,36 +414,26 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  
-}
 
-#hero .container {
-  margin-top: 10px;
-  padding-top: 70px;
-  position: relative;
-}
-
-@media (max-width: 992px) {
-  #hero .container {
-    padding-top: 58px;
-  }
-}
 .together{
-  width:100%;
-  top:7%;
-  position:absolute;
-  
-  margin-bottom: 10px;
+  display:block;
+  max-width:100%;
+  margin:0 auto;
+  max-height:100%;
+}
+.block{
+  display:block;
+  max-width:100%;
+  margin:0 auto;
+  max-height:100%;
 }
 
-@media screen and (max-width: 375px){
+
+@media screen and (max-width: 499px){
   .together{
-    top: 12%;
+    margin-top: 25%;
   }
+
   .header-social-links{
     margin-left: 50px;
   }
@@ -543,6 +533,7 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Projects
