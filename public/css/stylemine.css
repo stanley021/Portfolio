@@ -124,7 +124,7 @@
         margin-top: 3%;
     }
     .about-title{
-        margin-top: 30px;
+     margin-top: 10px;
       padding-left: 30px;
       text-align: left;
       font-size: 40px;
@@ -139,13 +139,16 @@
         flex-grow: 1;
         font-size: 20px;
         padding: 0 50px 5px 50px;
+        margin-top: 20px;
+        
       }
       
     .about-portrait {
         width:400px;
         float:right;
-        margin-right:50px;
-        border: 2px solid black
+        
+        border: 2px solid black;
+        margin-right: 10%;
       
       }
       .toronto-banner{
