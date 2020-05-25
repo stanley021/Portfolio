@@ -1,38 +1,20 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stanley Chen</title>
-<link rel="icon" href='img/weather.png'>
-<link rel = "stylesheet" href = "/css/style.css">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stanley Chen</title>
+        <link rel="icon" href='img/me.jpg'>
+        <link rel = "stylesheet" href = "/css/style.css">
+    </head>
 
 <body>
-<ul class = "nav">
-    <h1 class="title">{{title}}</h1>
-    <li><a href="/">Stanley Chen</a></li>
-    <li><a href = '/projects'> Projects </a></li>
-    <li><a href = "/About">About Me</a></li>
-    <li><a href = "/socialmedia"> Social Media </a></li>
-    <li><a href = '/contactInfo'> Contact </a></li>
-    <li><a href= "/weatherapp">Weather application</a></li>
-    
-    </ul>
-    <div class = "banner">
-    <img class= "banner-grad" src = "img/together.jpg">
-   </div>
+    {{>header}}
+    <section id="hero" class="d-flex align-items-center">
+        <img class = "together" src = "img/together.jpg">
+  </section><!-- End Hero -->
 
-    
-    <div class="square"></div>
-    <h2 class = "index-quote">S t a n l e y &nbsp;&nbsp;&nbsp;&nbsp; C h e n</h2>
-    <h2 class="index-type"> P o r t f o l i o.</h2>
-    <h2 class ="index-real">Self-made men do not exist. You will reach your goal with the help of others.</h2>
-    
-    <h2 class= "main-content-indexx">Home</h2>
-    <h2 class= "main-content-index-para">Welcome! This is the portfolio site of Stanely Chen. Feel free to reach out to talk about any of my projects or any ideas you may have!</h2>
-    
-{{>footer}}
+    {{>footer}}
 </body>
 
 </html>

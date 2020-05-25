@@ -29,6 +29,35 @@ app.get('/weatherapp', (req, res) => {
 
     })
 })
+app.get('/details_chess', (req, res) => {
+    res.render('details_chess',{
+        title: "Project Detail",
+        name: "Stanley chen"
+
+    })
+})
+app.get('/details_robotics', (req, res) => {
+    res.render('details_robotics',{
+        title: "Project Detail",
+        name: "Stanley chen"
+
+    })
+})
+app.get('/details_captcha', (req, res) => {
+    res.render('details_captcha',{
+        title: "Project Detail",
+        name: "Stanley chen"
+
+    })
+})
+app.get('/details_snake', (req, res) => {
+    res.render('details_snake',{
+        title: "Project Detail",
+        name: "Stanley chen"
+
+    })
+})
+
 app.get('/projects', (req, res) => {
     res.render('projects',{
         title: "Projects",
@@ -53,9 +82,9 @@ app.get('/about', (req, res) => {
 app.get('/socialmedia', (req, res) => {
     res.render('social',{
         title: "Social Media",
-        message: "Github (Click me!)",
-        message1: "DMOJ (Click me!)",
-        message2: "Linkedin (Click me!)",
+        message: "Github(Click me!)",
+        message1: "DMOJ(Click me!)",
+        message2: "Linkedin(Click me!)",
         name: "Stanley Chen"
 
     })
@@ -110,8 +139,5 @@ app.get('*', (req,res)=>{
 })
 
 app.listen(port, ()=>{
-
     console.log('server is up on port' + port)
-
-
 })
