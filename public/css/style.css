@@ -440,7 +440,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 375px){
   .together{
-    top: 10%;
+    top: 12%;
   }
   .header-social-links{
     margin-left: 50px;
